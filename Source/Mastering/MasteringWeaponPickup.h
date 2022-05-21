@@ -28,7 +28,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TSubclassOf<class AMasteringWeapon> WeaponClass;
 
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	USkeletalMeshComponent* WeaponMesh;
 
 	//UPROPERTY(EditAnywhere, BlueprintReadOnly)
